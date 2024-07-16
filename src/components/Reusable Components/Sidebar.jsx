@@ -10,7 +10,6 @@ import SBicon from '../../assets/images/settings button image.svg'
 import DPicon from '../../assets/images/dummy profile image.png'
 const Sidebar = () => {
     return (
-        <div className="mainContainer">
             <div className="sideBar">
                 <div className="logo">
                     <img src={Logo} alt="" />
@@ -36,7 +35,6 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 export default Sidebar;

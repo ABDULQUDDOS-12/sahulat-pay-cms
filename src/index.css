@@ -90,6 +90,45 @@ select{
 }
 
 
-
+/*************** Header Css **********************/
+.mainContent{
+  width: 75%;
+}
+.mainContent h2{
+  margin-bottom: 0px;
+}
+.headerContainer{
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+.textContainer{
+  width: 50%;
+}
+.textContainer img{
+width: 30px;
+margin-left: 2%;
+}
+.searchbarContainer{
+  width: 32%;
+  margin: auto;
+  margin-top: 4.5%;
+}
+.searchbarContainer input{
+  width: 90%;
+  padding: 10px;
+}
+.searchinput{
+  border: 1px solid #1D1D41;
+  border-radius: 5px;
+  background-color: #1D1D41;
+  color: white;
+}
+.searchinput{
+  background-image: url('./assets/images/search\ icon.svg'); /* Add your image URL here */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Adjust position as needed */
+  background-size: 20px;
+}
 
   
