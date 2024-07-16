@@ -1,0 +1,95 @@
+body{
+  background-color: #141332;
+}
+.mainContainer{
+  width: 100%;
+  display: flex;
+  color: white;
+}
+/* *************************************************************** */
+/* Sidebar */
+.sideBar{
+  width: 25%;
+  min-width: 25%;
+  flex-grow: 0;
+}
+.sideBar h2,.mainContent h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;    
+  margin-top: 10%;
+}
+.logo img{
+width: 40px;
+}
+.buttonsContainer{
+width: 90%;
+display: flex;
+border: 1px solid #1D1D41;
+margin: auto;
+margin-top: 10%;
+justify-content: center;
+border-radius: 10px;
+flex-direction: column;
+background-color: #1D1D41;
+margin-bottom: 10%;
+
+}
+button{
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  background-color: transparent;
+  color: white;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.buttonsContainer button:first-child {
+  margin-top: 20%;
+}
+button:hover{
+background-color: #6359E9;
+border: 1px solid;
+border-radius: 10px;
+cursor: pointer;
+}
+.buttonsContainer hr{
+  width: 90%;
+  border-color: #4b4986;
+}
+.signin-container{
+  margin: auto;
+  width: 90%;
+  margin-top: 40%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;   
+}
+.signin-container img{
+  width: 40px;
+}
+select{
+  width: 120%;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}
+.dropdown select option{
+  color: white; /* Example color */
+  background-color: #6359E9; 
+}
+
+
+
+
+  
