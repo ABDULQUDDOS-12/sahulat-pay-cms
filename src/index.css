@@ -125,10 +125,53 @@ margin-left: 2%;
   color: white;
 }
 .searchinput{
-  background-image: url('./assets/images/search\ icon.svg'); /* Add your image URL here */
+  background-image: url('../src/assets/images/search\ icon.svg'); 
   background-repeat: no-repeat;
-  background-position: right 10px center; /* Adjust position as needed */
+  background-position: right 10px center; 
   background-size: 20px;
 }
 
+/********************* Cards Container*************************/
+.cardsContainer{
+  width: 97%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+.firstCard{
+  width: 30%;
+  border: 1px solid #1D1D41;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-left: 15px;
+  gap: 10px;
+  background-color: #1D1D41;
   
+}
+.imageContainer img{
+  width: 35px;
+}
+.valuesContainer h4,.valuesContainer p{
+  margin: 0px;
+}
+.valuesContainer h4{
+  margin-top: 5px;
+}
+.valuesUpdate p{
+  margin-top: 35px;
+  color: #02B15A;
+  background-color: rgba(2, 177, 90, 0.15); 
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.firstCard:nth-of-type(2) .valuesUpdate p{
+  margin-top: 35px;
+  color: #E41414;
+  background-color: rgba(235, 0, 27, 0.15);; 
+  border-radius: 5px;
+  padding: 5px 10px;
+}
