@@ -1,0 +1,53 @@
+.SecondCardContainer{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    gap: 30px;
+  }
+  .SecondCardContainer .firstCard{
+      width: 17%;
+      border: 1px solid #1D1D41;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      gap: 70px;
+      background-color: #1D1D41;
+  }
+  .SecondCardContainer .firstCard .valuesUpdate img{
+    cursor: pointer;
+  }
+  .SecondCardContainer .firstCard .valuesUpdate{
+      margin-bottom: 20%;
+  }
+  .SecondCardContainer .firstCard:nth-child(3){
+      width: 17%;
+      border: 1px solid #1D1D41;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      gap: 90px;
+      background-color: #1D1D41;
+  }
+  .SecondCardContainer .firstCard:nth-child(2){
+      width: 17.5%;
+      border: 1px solid #1D1D41;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      gap: 80px;
+      background-color: #1D1D41;
+  }
+  .SecondCardContainer .firstCard:nth-child(4){
+      width: 17.5%;
+      border: 1px solid #1D1D41;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      gap: 100px;
+      background-color: #1D1D41;
+  }
