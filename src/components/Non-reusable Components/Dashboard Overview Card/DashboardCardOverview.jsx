@@ -1,46 +1,51 @@
 import React from 'react';
-import styles from './index.module.css';
 import threeDotImage from '../../../assets/images/three dot image.svg';
-const DashboardOverviewCard = () => {
+import styles from '../../../pages/Group Dashboard/index.module.css'; 
+const SecondCardContainer = () => {
   return (
-    <div className='container'>
-      <div className='card'>
+    <div className={styles.SecondCardContainer}>
+      <div className={styles.firstCard}>
         <div className={styles.valuesContainer}>
-          <p>Today's Transactions</p>
+          <p>Todays</p>
+          <p>Transactions</p>
           <h4>1,500</h4>
         </div>
         <div className={styles.valuesUpdate}>
-          <img src={threeDotImage} alt="Three Dots" />
+          <img src={threeDotImage} alt="" />
         </div>
       </div>
-      <div className={styles.card}>
+
+      <div className={styles.firstCard}>
         <div className={styles.valuesContainer}>
           <p>Total Users</p>
           <h4>20,587</h4>
         </div>
         <div className={styles.valuesUpdate}>
-          <img src={threeDotImage} alt="Three Dots" />
+          <img src={threeDotImage} alt="" />
         </div>
       </div>
-      <div className={styles.card}>
+
+      <div className={styles.firstCard}>
         <div className={styles.valuesContainer}>
           <p>Requests</p>
           <h4>120</h4>
         </div>
         <div className={styles.valuesUpdate}>
-          <img src={threeDotImage} alt="Three Dots" />
+          <img src={threeDotImage} alt="" />
         </div>
       </div>
-      <div className={styles.card}>
+
+      <div className={styles.firstCard}>
         <div className={styles.valuesContainer}>
-          <p>Pending Requests</p>
+          <p>Pending</p>
           <h4>54</h4>
         </div>
         <div className={styles.valuesUpdate}>
-          <img src={threeDotImage} alt="Three Dots" />
+          <img src={threeDotImage} alt="" />
         </div>
       </div>
     </div>
   );
 };
-export default DashboardOverviewCard;
+
+export default SecondCardContainer;

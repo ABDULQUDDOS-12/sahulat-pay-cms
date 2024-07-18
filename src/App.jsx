@@ -1,6 +1,5 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Sidebar from './components/Reusable Components/Sidebar'
-import Dashboard from './pages/Dashboard/Dashboard'
+import Dashboard from './pages/Group Dashboard/Index'
 function App() {
   const router  = createBrowserRouter([
     {path:"/",element:<><Dashboard/></>},
