@@ -180,19 +180,18 @@ body{
   /**************** Dashboard card Overview ****************/
   .SecondCardContainer{
     display: flex;
-    width: 95%;
+    width: 97%;
     margin: auto;
     margin-top: 2%;
-    gap: 30px;
+    gap: 10px;
   }
   .SecondCardContainer .firstCard{
-      width: 17%;
+      width: 20%;
       border: 1px solid #1D1D41;
       border-radius: 10px;
       display: flex;
       align-items: center;
       padding: 15px;
-      gap: 70px;
       background-color: #1D1D41;
   }
   .SecondCardContainer .firstCard .valuesUpdate img{
@@ -202,32 +201,42 @@ body{
       margin-bottom: 20%;
   }
   .SecondCardContainer .firstCard:nth-child(3){
-      width: 17%;
+      width: 20%;
       border: 1px solid #1D1D41;
       border-radius: 10px;
       display: flex;
       align-items: center;
       padding: 15px;
-      gap: 90px;
+      gap: 60px;
       background-color: #1D1D41;
   }
   .SecondCardContainer .firstCard:nth-child(2){
-      width: 17.5%;
+      width: 20%;
       border: 1px solid #1D1D41;
       border-radius: 10px;
       display: flex;
       align-items: center;
       padding: 15px;
-      gap: 80px;
+      gap: 60px;
       background-color: #1D1D41;
   }
   .SecondCardContainer .firstCard:nth-child(4){
-      width: 17.5%;
+      width: 20%;
       border: 1px solid #1D1D41;
       border-radius: 10px;
       display: flex;
       align-items: center;
       padding: 15px;
-      gap: 100px;
+      gap: 60px;
       background-color: #1D1D41;
   }
+  .SecondCardContainer .firstCard:nth-child(1){
+    width: 20%;
+    border: 1px solid #1D1D41;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 40px;
+    background-color: #1D1D41;
+}

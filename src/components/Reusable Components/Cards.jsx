@@ -1,7 +1,7 @@
 import React from 'react';
 import upArrowImage from '../../assets/images/up arrow image.png';
 import downArrowImage from '../../assets/images/down arrow.png';
-import styles from '../../pages/Group Dashboard/index.module.css'; // Adjust the import path as necessary
+import styles from '../../pages/Group Dashboard/index.module.css'; 
 
 const CardsContainer = () => {
   return (
