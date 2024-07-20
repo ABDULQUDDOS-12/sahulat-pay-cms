@@ -4,6 +4,7 @@ import Header from '../../components/Reusable Components/Header'
 import CardsContainer from '../../components/Reusable Components/Cards'
 import SecondCardContainer from '../../components/Non-reusable Components/Dashboard Overview Card/DashboardCardOverview'
 import styles from './index.module.css'
+import TableComponent from '../../components/Non-reusable Components/Dashboard Overview Card/TableComponent'
 const Dashboard = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Dashboard = () => {
       <Header/>
       <CardsContainer/>
       <SecondCardContainer/>
+      <TableComponent/>
       </div>
       </div>
     </div>
