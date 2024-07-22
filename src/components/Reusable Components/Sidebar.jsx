@@ -19,7 +19,7 @@ const Sidebar = () => {
             </div>
             <div className={styles.buttonsContainer}>
                 <Link to="/" className={styles.link}><button><img src={Dicon} alt="" /><p>Dashboard</p></button></Link>
-                <Link to="/reports" className={styles.link}><button><img src={RBicon} alt="" /><p>Reports</p></button></Link>
+                <Link to="/report" className={styles.link}><button><img src={RBicon} alt="" /><p>Reports</p></button></Link>
                 <Link to="/transaction" className={styles.link}><button><img src={TBicon} alt="" /><p>Transactions</p></button></Link>
                 <Link to="/users" className={styles.link}><button><img src={UBicon} alt="" /><p>Users</p></button></Link>
                 <Link to="/unique-transactions" className={styles.link}><button><img src={UTicon} alt="" /><p>Unique Transaction Links</p></button></Link>
