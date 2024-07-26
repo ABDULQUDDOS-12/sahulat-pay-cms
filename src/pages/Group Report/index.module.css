@@ -131,39 +131,101 @@ body{
     background-position: right 10px center; 
     background-size: 20px;
   }
-  
-  /* Search Form  */
-  .searchForm {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin-left: 2%;
-    margin-top: 2%;
+  /* Chart  */
+  .barGraph{
+    padding: 2%;
 }
-.searchField {
-    margin-bottom: 3%;
+#chart_div {
+    padding: 20px; /* Add padding inside the chart container */
+    border-radius: 20px; /* Make the corners rounded */
+    background-color: #1D1D41; /* Background color for the chart container */
+    width: 95%;
 }
-.searchField input {
+.google-visualization-bar-chart rect {
+    rx: 10; /* Adjust the value to change the roundness of bars */
+    ry: 10; /* Adjust the value to change the roundness of bars */
+}
+.google-visualization-tooltip {
+    color: #ffffff; /* Tooltip text color */
+}
+
+.graphsContainer{
     width: 100%;
-    padding: 3%;
-    font-size: 16px;
-    border: 1px solid #1D1D41;
-    border-radius: 5px;
-    background-color: #1D1D41;
+    display: flex;
 }
-.searchButton {
-    padding: 3%;
-    font-size: 16px;
-    color: #fff;
-    background-color: #1D1D41;
+/* Guage Chart */
+  .guageContainer{
+    width: 26%;
+    margin-top: 2%;
+    margin-left: 3%;
     border: 1px solid #1D1D41;
     border-radius: 10px;
-    cursor: pointer;
-    width: 40%;
-}
-.searchButton h1{
-    margin: 0px;
-}
-.searchButton{
-    margin-left: 0px;
-}
+    background-color: #1D1D41;
+  }
+  .guageContainer p{
+    margin-left: 5%;
+  }
+  
+  .legend-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+  }
+
+  .legend {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .legend-purple {
+    background-color: #6359E9;
+  }
+  
+  .legend-blue {
+    background-color: #64CFF6;
+  }
+  
+  .controls {
+    /* margin-top: 20px; */
+    text-align: center;
+    display: none;
+  }
+  
+  .controls label {
+    font-weight: bold;
+  }
+  
+  .controls input {
+    width: 50px;
+    /* margin-left: 10px; */
+  }
+
+  /* Graphs css */
+  .mainChartContainer{
+    width: 97%;
+    margin: auto;
+
+  }
+  .barGraphContainer{
+    width: 50%;
+    border: 1px solid white;
+    margin-top: 2%;
+    padding: 2%;
+  }
+  .barGraphContainer .header{
+    display: flex;
+    align-items: center;
+    gap: 50%;
+    width: 100%;
+  }
+  .yearDropDown{
+    width: 30%;
+  }
