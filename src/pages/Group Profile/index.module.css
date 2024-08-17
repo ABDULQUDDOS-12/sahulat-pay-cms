@@ -134,217 +134,64 @@ body{
     background-size: 20px;
   }
   
-  /********************* Cards Container*************************/
-  .cardsContainer{
-    width: 97%;
-    margin: auto;
-    margin-top: 2%;
-    display: flex;
-    gap: 10px;
-    flex-wrap: nowrap;
-  }
-  .firstCard{
-    width: 30%;
-    border: 1px solid #1D1D41;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    padding-left: 15px;
-    gap: 10px;
-    background-color: #1D1D41;
-    
-  }
-  .imageContainer img{
-    width: 35px;
-  }
-  .valuesContainer h4,.valuesContainer p{
-    margin: 0px;
-  }
-  .valuesContainer h4{
-    margin-top: 5px;
-  }
-  .valuesUpdate p{
-    margin-top: 35px;
-    color: #02B15A;
-    background-color: rgba(2, 177, 90, 0.15); 
-    border-radius: 5px;
-    padding: 5px 10px;
-  }
-  .firstCard:nth-of-type(2) .valuesUpdate p{
-    margin-top: 35px;
-    color: #E41414;
-    background-color: rgba(235, 0, 27, 0.15);; 
-    border-radius: 5px;
-    padding: 5px 10px;
-  }
-  
-  
-  /**************** Dashboard card Overview ****************/
-  .SecondCardContainer{
-    display: flex;
-    width: 97%;
-    margin: auto;
-    margin-top: 2%;
-    gap: 10px;
-  }
-  .SecondCardContainer .firstCard{
-      width: 20%;
-      border: 1px solid #1D1D41;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      padding: 15px;
-      background-color: #1D1D41;
-  }
-  .SecondCardContainer .firstCard .valuesUpdate img{
-    cursor: pointer;
-  }
-  .SecondCardContainer .firstCard .valuesUpdate{
-      margin-bottom: 20%;
-  }
-  .SecondCardContainer .firstCard:nth-child(3){
-      width: 20%;
-      border: 1px solid #1D1D41;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      padding: 15px;
-      gap: 60px;
-      background-color: #1D1D41;
-  }
-  .SecondCardContainer .firstCard:nth-child(2){
-      width: 20%;
-      border: 1px solid #1D1D41;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      padding: 15px;
-      gap: 60px;
-      background-color: #1D1D41;
-  }
-  .SecondCardContainer .firstCard:nth-child(4){
-      width: 20%;
-      border: 1px solid #1D1D41;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      padding: 15px;
-      gap: 60px;
-      background-color: #1D1D41;
-  }
-  .SecondCardContainer .firstCard:nth-child(1){
-    width: 20%;
-    border: 1px solid #1D1D41;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    gap: 40px;
-    background-color: #1D1D41;
-}
-/* ***********************Table Component****************************** */
-.dropdownContainers {
-  position: relative;
-  width: 30%;
-  font-family: Arial, sans-serif;
-  
-}
-.dropDowns {
-  width: 100%;
-  padding: 5px;
-  padding-left: 40px;
-  font-size: 12px;
-  appearance: none; /* Remove default arrow */
-  -webkit-appearance: none; /* For Safari *4
-  -moz-appearance: none; /* For Firefox */
-  background: url('./images/calendar\ image.png') no-repeat left 10px center;
-  background-size: 20px;
-  border: 1px solid rgba(174, 171, 216, 0.53);
-  border-radius: 5px;
-  cursor: pointer;
-}
-.dropdownContainers::after {
-  content: '\25BC'; /* Unicode character for down arrow */
-  position: absolute;
-  top: 40%;
-  right: 20px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  font-size: 12px;
-  color: rgba(174, 171, 216, 0.53);
-}
-.dropdownContainers select option{
-  color: white;
-  background-color: #1D1D41;
-}
-.dropdownContainers select{
-  color: rgba(174, 171, 216, 0.53);
-}
-.tableContainer{
-  width: 96%;
-  margin-top: 2%;
+
+/* *******************Profile Form************** */
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
   margin-left: 2%;
+  margin-top: 2%;
+}
+.searchField {
+  margin-bottom: 3%;
+}
+.searchField input {
+  width: 100%;
+  padding: 3%;
+  font-size: 16px;
+  border: 1px solid #1D1D41;
+  border-radius: 5px;
+  background-color: #1D1D41;
+  color:#AEABD8;
+  margin-top: 10px;
+}
+.searchField label{
+  margin-left: 2%;
+  color: #AEABD8;
+}
+.searchButton {
+  padding: 5%;
+  padding-left: 5%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1D1D41;
   border: 1px solid #1D1D41;
   border-radius: 10px;
-  background-color: #1D1D41;
+  cursor: pointer;
+  width: 40%;
 }
-.headings{
-  display: flex;
-  width: 95%;
-  margin: auto;
-  gap: 15px;
-  margin-bottom: 2%;
+.searchButton h1{
+  margin: 0px;
 }
-.headings .searchbarContainer,.headings .dropdownContainers{
+.searchButton{
+  margin-left: 0px;
+}
+.formContainer{
+ display: flex;
+ width: 100%;
+}
+.profilePicture{
+  width: 40%;
+  margin-left: 10%;
   margin-top: 3%;
+  justify-content: center;
 }
-.headings .searchbarContainer{
-  width: 30%;
-  margin-left: 2%;
-  margin-right: 0px;
-  border: 1px solid rgba(174, 171, 216, 0.53);
+.profilePicture img{
+  width: 50%;
 }
-.headings .dropdownContainers{
-  margin-left: 2%;
-}
-.headings h3{
-  margin-top: 4%;
-}
-table {
-  width: 80%;
-  margin-left: 2%;
-  border-collapse: collapse;
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 2%;
-}
-th, td {
-  padding: 15px;
-}
-tr:hover {
-  background-color: #141332;
+.profilePicture p{
+ margin-left: 10%;
+  color: #AEABD8;
   cursor: pointer;
 }
-td img{
-  width: 8%;
-  background-color: white;
-  border-radius: 25px;
-  padding: 2px;
-}
-.imageWithText{
-  display: flex;
-  gap: 10px;
-}
-tr td:last-child p{
-  margin: 0px;
-  font-size: small; 
-  color: #02B15A; 
-  background-color: rgba(2, 177, 90, 0.15);
-  border-radius: 5px;
-  text-align: center;
-}
-tr th:last-child{
-  text-align: center;
-}
-
