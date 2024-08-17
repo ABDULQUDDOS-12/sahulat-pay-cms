@@ -7,7 +7,7 @@ const SecondCardContainer = () => {
       <div className={styles.firstCard}>
         <div className={styles.valuesContainer}>
           <p>Todays</p>
-          <p>Transactions</p>
+          <p>Transactions and comissions</p>
           <h4>1,500</h4>
         </div>
         <div className={styles.valuesUpdate}>
